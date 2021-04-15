@@ -28,7 +28,6 @@ char* getLocalTime(struct tm* u)
 	return tmp;
 }
 
-
 void delay(int ms) // аргумент - требуемое время задержки в миллисекундах
 {
 	int c = clock() + ms;
